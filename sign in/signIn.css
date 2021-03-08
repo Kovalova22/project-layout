@@ -78,3 +78,72 @@ button:hover {
 button:focus {
     outline: none;
 }
+.fisrt_circle {
+    position: absolute;
+    width: 907px;
+    height: 907px;
+    left: 263px;
+    top: -73px;
+    border-radius: 50%;
+    background: rgba(254, 254, 254, 0.45);
+    box-shadow: 0px 0px 42px rgba(231, 231, 231, 0.13);
+    z-index: -10;
+}
+.second_circle {
+    position: absolute;
+    width: 765px;
+    height: 765px;
+    left: 70px;
+    top: 75px;
+    border-radius: 50%;
+    background: rgba(254, 254, 254, 0.45);
+    box-shadow: 0px 0px 42px rgba(231, 231, 231, 0.36);
+    z-index: -7;
+}
+.third_circle {
+    position: absolute;
+    width: 614px;
+    height: 614px;
+    left: 70px;
+    top: 75px;
+    border-radius: 50%;
+    background: rgba(254, 254, 254, 0.54);
+    box-shadow: 0px 0px 42px rgba(231, 231, 231, 0.41);
+    z-index: -5;
+}
+.fourth_circle {
+    position: absolute;
+    width: 437px;
+    height: 437px;
+    left: 85px;
+    top: 85px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.54);
+    box-shadow: 0px 0px 42px rgba(231, 231, 231, 0.43);
+    z-index: -3;
+}
+.central {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 150px;
+}
+h2 {
+    width: 883px;
+    height: 71px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #2A74DB;
+    margin-bottom: 0px;
+}
+p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-top: 0px;
+}
